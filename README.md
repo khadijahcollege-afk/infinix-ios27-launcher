@@ -84,7 +84,10 @@ only exists inside XOS. This project is a from-scratch launcher that:
 
 ## Installation
 
-1. Download the latest APK from [Releases](../../releases) (or build it yourself, below).
+1. Get the APK: the latest build is bundled in this repo at
+   [`dist/iOS27Launcher-v0.14.apk`](dist/iOS27Launcher-v0.14.apk) (v0.14.0, 2,247,611 bytes,
+   SHA-256 `53e7d8b0fd3ad3c51a05641fd92cf93be3195cedd847ce7e79cecf7a07347031`),
+   or from [Releases](../../releases), or build it yourself (below).
 2. Install it on your phone (allow *Install via USB / unknown apps* if Android asks).
 3. Press **Home** and choose **iOS 27 Launcher → Always**.
 4. One-time setup inside **Settings** (long-press an icon › Customize, or Control Center › Settings):
@@ -97,8 +100,8 @@ only exists inside XOS. This project is a from-scratch launcher that:
 Requirements: JDK 17, Android SDK 35, Gradle 8.9 (or Android Studio Ladybug+).
 
 ```bash
-git clone https://github.com/<your-username>/ios27-launcher.git
-cd ios27-launcher
+git clone https://github.com/<your-username>/infinix-ios27-launcher.git
+cd infinix-ios27-launcher
 ./gradlew assembleRelease
 # APK -> app/build/outputs/apk/release/app-release.apk
 ```
