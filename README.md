@@ -97,8 +97,8 @@ only exists inside XOS. This project is a from-scratch launcher that:
 Requirements: JDK 17, Android SDK 35, Gradle 8.9 (or Android Studio Ladybug+).
 
 ```bash
-git clone https://github.com/<your-username>/infinix-ios27-launcher.git
-cd infinix-ios27-launcher
+git clone https://github.com/<your-username>/ios27-launcher.git
+cd ios27-launcher
 ./gradlew assembleRelease
 # APK -> app/build/outputs/apk/release/app-release.apk
 ```
